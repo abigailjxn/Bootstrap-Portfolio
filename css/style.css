@@ -1,0 +1,14 @@
+/* Link to TypeKit Fonts */
+@import url("https://use.typekit.net/sgu2yrp.css");
+
+h1 {
+    font-family: "mrs-eaves-roman-all-petite-c","Georgia", serif;
+    font-size: 40px;
+    color: lavender;
+    background-color: #8977a1;
+    /* height: 100%;
+    width: 300px;
+    position: absolute;
+    padding-left: 20px;
+    line-height: 80px; */
+}
