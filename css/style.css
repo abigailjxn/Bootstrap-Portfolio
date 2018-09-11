@@ -86,6 +86,11 @@ footer {
     
 }
 
+#portfolioh2 {
+    padding-left: 18px;
+
+}
+
 .portfoliophoto {
     width: 250px;
     height: 250px;
@@ -93,7 +98,7 @@ footer {
     margin: auto;
     
 }
-/* #leftphoto {
-    padding-left: 40px;
-} */
-    
+#portfoliorow {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
