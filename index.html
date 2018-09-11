@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Abigail's Portfolio</title>
     <!--Link to Reset CSS-->
-    <link rel="stylesheet" type="text/CSS" href="Assets/css/reset.css">
+    <link rel="stylesheet" type="text/CSS" href="css/reset.css">
     <!--Link to Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!--Link to CSS file-->
-    <link rel="stylesheet" type="text/CSS" href="Assets/css/style.css">
+    <link rel="stylesheet" type="text/CSS" href="css/style.css">
     
 
 </head>
@@ -18,20 +18,23 @@
 
 <body>
     <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#"><h1>Abigail Jackson</h1></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                      <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#">Features</a>
-                        <a class="nav-item nav-link" href="#">Pricing</a>
-                        <a class="nav-item nav-link disabled" href="#">Disabled</a>
-                      </div>
-                    </div>
-                  </nav>
+      <nav class="navbar navbar-expand{-sm|-md|-lg|-xl}" style="background-color: lavender;">
+          <!-- <nav class="navbar navbar-light" style="background-color: lavender;"> -->
+          
+              <a class="navbar-brand" href="#"><h1>Abigail Jackson</h1></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-item nav-link active" href="index.html">About&nbsp&nbsp&nbsp|<span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="portfolio.html">Portfolio&nbsp&nbsp&nbsp|</a>
+                  <a class="nav-item nav-link" href="contact.html">Contact</a>    
+                </div>
+              </div>
+        </nav>
+      </nav>
     </header> 
 
      
@@ -42,19 +45,37 @@
             <h2>About Me</h2>
           </div>
         </div>
+
         <div class="row">
           <div class="col-lg-12">
-            <p><img src="images/abigail.jpg">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero ullam rerum consectetur exercitationem reiciendis tempore assumenda molestias laborum minima quam deleniti tenetur animi, neque, id corporis odit quis eveniet ad!</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ad suscipit optio eligendi vero ea iste aliquid ex eveniet pariatur velit doloribus qui, praesentium, possimus corrupti modi sapiente eaque nemo.</p>
+            <p><img src="images/abigail.jpg" alt="Abigail Jackson" id="profile">
+                Hello! My name is Abigail, and I'm a full-stack web developer! I believe in living holistically and that if everyone was allowed to live into all they were made to be, the world would be a better place.
+                That being said, I believe that innovation in technology and creativity in art are two sides of the same coin, and I love to see the intersection of both. 
+                Before learning to code, I was already growing my skills as a designer and photographer. Through these skills, I seek to tell stories that resonate with the 
+                hearts of people in a way that challenges everyone to see the world through different perspectives. 
+                <br>
+                <br>
+                I have a background in the non-profit sector and seek to build into structures that are accessible and empower people from diverse walks of life.
+                <br>
+                <br>
+                As someone who is both Filipinx and white, I have learned to see the world through different lenses,and it has profoundly affected my work and art. I am in the process of learning my people's history and hope to one day see the Asian-American narrative in a greater position of legitimacy. 
+                If you would like to follow along on my journey, check out my other website at <a href="http://halohalocreative.com">halohalocreative.com</a> or on Instagram at <a href="http://instagram.com/abigailjxn">@abigailjxn</a>.
+                <br>
+                <br>
+                Thanks for visiting!
+            </p>
           </div>
         </div>
       </div>
     </section>
+
+    <footer class="footer">
+      <div class="container">
+        <span>Abigail Jackson&copy;</span>
+      </div>
+    </footer>
+      <!-- <h6>Abigail Jackson&copy;</h6>
+    </footer> -->
 
 </body>
 </html>
