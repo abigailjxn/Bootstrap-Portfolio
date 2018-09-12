@@ -9,14 +9,15 @@
 h1 {
     font-family: "mrs-eaves-roman-all-petite-c","Georgia", serif;
     font-size: 40px;
-    color: lavender;
-    background-color: #8977a1;
-    height: 100%;
-    width: 280px;
+    color: #8977a1;
+    /* background-color: #8977a1; */
+    /* height: 100%;
+    width: 280px; */
     /* position: absolute; */
     padding-left: 20px;
     /* line-height: 80px; */
     /* border-radius: 4px; */
+    /* margin-left: 25px; */
 }
 
 body {
